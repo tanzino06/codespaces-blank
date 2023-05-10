@@ -1,0 +1,110 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #003366;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #003366;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Homepage Styles */
+  #homepage {
+    background-color: #fff;
+  }
+  
+  /* Gare Styles */
+  #gare {
+    background-color: #f9f9f9;
+  }
+  
+  /* Corsi Styles */
+  #corsi {
+    background-color: #fff;
+  }
+  
+  /* Noleggio Styles */
+  #noleggio {
+    background-color: #f9f9f9;
+  }
+  
+  /* Contatti Styles */
+  #contatti {
+    background-color: #fff;
+  }
+  

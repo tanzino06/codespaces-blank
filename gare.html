@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Gare - Centro Remiero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gare.html">Gare</a></li>
+        <li><a href="corsi.html">Corsi</a></li>
+        <li><a href="noleggio.html">Noleggio</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Gare</h1>
+    <p>Il nostro centro remiero partecipa alle seguenti gare:</p>
+    <ul class="gare-list">
+      <li>
+        <h2>Gara del Lario</h2>
+        <p>Descrizione: gara di remo sul Lago di Como.</p>
+        <p>Data: 15 luglio 2023</p>
+      </li>
+      <li>
+        <h2>Gara della Stretta</h2>
+        <p>Descrizione: gara di remo sul fiume Po.</p>
+        <p>Data: 1 settembre 2023</p>
+      </li>
+      <li>
+        <h2>Campionato Italiano di Remo</h2>
+        <p>Descrizione: campionato italiano di remo.</p>
+        <p>Data: 15-17 settembre 2023</p>
+      </li>
+    </ul>
+    <p>Se sei interessato a partecipare a una delle nostre gare o vuoi maggiori informazioni, compila il form sottostante o contattaci ai nostri recapiti telefonici o email.</p>
+    <form action="#" method="POST">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="telefono">Telefono</label>
+      <input type="tel" id="telefono" name="telefono" required>
+      <label for="gara">Gara</label>
+      <select id="gara" name="gara" required>
+        <option value="" disabled selected>Scegli una gara</option>
+        <option value="gara-lario">Gara del Lario</option>
+        <option value="gara-stretta">Gara della Stretta</option>
+        <option value="campionato-italiano">Campionato Italiano di Remo</option>
+      </select>
+      <label for="messaggio">Messaggio</label>
+      <textarea id="messaggio" name="messaggio" rows="5" required></textarea>
+      <button type="submit">Invia</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2023 Centro Remiero</p>
+  </footer>
+</body>
+</html>
